@@ -15,6 +15,22 @@ Aplicação backend desenvolvida com **Quarkus**, responsável por gerenciar **a
 
 ---
 
+## ☕ Requisitos
+
+- **Java 17** (JDK)
+- **Maven 3.8+**
+
+⚠️ Certifique-se de que o Java 21 está instalado e configurado corretamente.  
+Para verificar:
+
+```bash
+java -version
+
+---
+
+```
+---
+
 ## 📦 Funcionalidades
 
 - ✅ Cadastro de alunos e cursos
@@ -97,6 +113,31 @@ java -jar target/*-runner.jar
 Você pode testar os endpoints com ferramentas como **Postman**, **Insomnia** ou diretamente pelo frontend Angular (em `http://localhost:4200`).
 
 ---
+
+✅ Testes Unitários
+
+Os testes unitários estão localizados em:
+
+gestao-cursos-api/src/test/java
+
+Mantendo a mesma estrutura de pacotes da aplicação. Exemplo:
+
+| Classe                         | Teste correspondente                                                      |
+|--------------------------------|---------------------------------------------------------------------------|
+| src/main/java/.../AlunoService.java | src/test/java/br/com/unifor/service/AlunoServiceTest.java             |
+| src/main/java/.../CursoService.java | src/test/java/br/com/unifor/service/CursoServiceTest.java             |
+
+🧪 Como executar os testes
+
+Com Maven:
+
+    mvn test
+
+📦 Tecnologias utilizadas nos testes
+
+- JUnit 5 – Framework de testes
+- Mockito – Mocks e verificações
+- MockedStatic – Mock para métodos estáticos (ex: Panache)
 
 ## ✍️ Autor
 

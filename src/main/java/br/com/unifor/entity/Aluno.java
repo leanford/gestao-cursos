@@ -29,6 +29,14 @@ public class Aluno extends PanacheEntity {
         return cursos;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public void setCursos(List<Curso> cursos) {
         this.cursos = cursos;
     }
