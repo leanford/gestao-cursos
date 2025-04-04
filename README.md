@@ -20,7 +20,7 @@ Aplicação backend desenvolvida com **Quarkus**, responsável por gerenciar **a
 - **Java 17** (JDK)
 - **Maven 3.8+**
 
-⚠️ Certifique-se de que o Java 21 está instalado e configurado corretamente.  
+⚠️ Certifique-se de que o Java 17+ está instalado e configurado corretamente.  
 Para verificar:
 
 ```bash
